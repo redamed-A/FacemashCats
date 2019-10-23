@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EloCalculation.cs" />
+    <Compile Include="IEloCalculation.cs" />
     <Compile Include="IScore.cs" />
     <Compile Include="IVote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
