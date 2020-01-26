@@ -9,9 +9,9 @@ namespace Facemash.Controllers
 {
     public class ScoreController : Controller
     {
-        private readonly IScore _iScore;
+        private readonly IScoreService _iScore;
 
-        public ScoreController(IScore iScore)
+        public ScoreController(IScoreService iScore)
         {
             _iScore = iScore ?? throw new NullReferenceException();
         }

@@ -27,8 +27,8 @@ namespace FacemashWeb
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddSingleton<IVote, Vote>();
-            services.AddSingleton<IScore, Score>();
+            services.AddSingleton<IVoteService, VoteService>();
+            services.AddSingleton<IScoreService, ScoreService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

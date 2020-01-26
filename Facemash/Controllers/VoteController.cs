@@ -12,9 +12,9 @@ namespace Facemash.Controllers
     [ApiController]
     public class VoteController : Controller
     {
-        private readonly IVote _vote;
+        private readonly IVoteService _vote;
 
-        public VoteController(IVote vote)
+        public VoteController(IVoteService vote)
         {
             _vote = vote ?? throw new NullReferenceException();
         }

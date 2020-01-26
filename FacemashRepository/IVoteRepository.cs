@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FacemashService
+namespace FacemashRepository
 {
-    public interface IScore
+    public interface IVoteRepository
     {
     }
 }
