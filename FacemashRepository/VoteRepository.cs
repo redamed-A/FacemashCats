@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FacemashRepository
 {
-    public class Class1
+    public class VoteRepository:IVoteRepository
     {
     }
 }

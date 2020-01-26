@@ -43,16 +43,20 @@
   <ItemGroup>
     <Compile Include="EloCalculation.cs" />
     <Compile Include="IEloCalculation.cs" />
-    <Compile Include="IScore.cs" />
-    <Compile Include="IVote.cs" />
+    <Compile Include="IScoreService.cs" />
+    <Compile Include="IVoteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Score.cs" />
-    <Compile Include="Vote.cs" />
+    <Compile Include="ScoreService.cs" />
+    <Compile Include="VoteService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FacemashModel\FacemashModel.csproj">
       <Project>{C5DC3F09-8885-4DDD-997C-C21A01DF213C}</Project>
       <Name>FacemashModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FacemashRepository\FacemashRepository.csproj">
+      <Project>{3D9B08C8-B05A-4C44-9171-E147D3245C23}</Project>
+      <Name>FacemashRepository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
